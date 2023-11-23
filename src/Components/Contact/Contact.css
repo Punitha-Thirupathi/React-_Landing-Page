@@ -1,0 +1,105 @@
+#brandPage {
+  min-height: calc(90vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.brandPageTitle {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.brandDesc {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.brandImgs {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+  flex-wrap: wrap;
+}
+.brandImg {
+  object-fit: cover;
+  width: 40%;
+  max-width: 9rem;
+  margin: auto;
+  padding: 0.1rem;
+}
+#brand {
+  padding: 2rem;
+}
+.customerDesc {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+.customerForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vm;
+  max-width: 60rem;
+}
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(245, 245, 245);
+}
+.name,
+.email,
+.msg:hover{
+   cursor: pointer;
+  
+}
+.customerPageTitle {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.submitBtn {
+  margin: 3rem;
+  padding: 0.5rem 2.5rem;
+  color: black;
+  background-color: yellow;
+  border: none;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.Links {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.link {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  max-width: 9rem;
+  margin: 0 1rem;
+  padding: 0.1rem;
+}
+.link:hover{
+    cursor: pointer;
+}
+.submitBtn:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
